@@ -1,0 +1,99 @@
+
+
+body {
+}
+
+.card {
+	width: 90%;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	background: #111d4a;
+	margin: 0 auto;
+	color:#fff;
+}
+
+/* Topgraphy*/
+h2,
+.footer-p,
+.footer-link {
+	font-family: 'Blinker', sans-serif;
+}
+
+h2,
+.footer-link {
+	font-weight: 700;
+}
+
+p{
+	margin-top: 0;
+}
+.footer-P {
+	font-weight: 400;
+	margin-top: 0;
+	opacity: .6;
+}
+
+.card-p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1rsem;
+}
+
+
+.card-content{
+	padding: 1em;
+	line-height: 1.6;
+}
+
+
+.card-img{
+	object-fit: cover;
+	/*max-height: 150px;*/
+	flex-basis: 300px;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+.card-footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 3em;
+}
+
+span{
+	display: block;
+	font-weight: 700;
+}
+
+.footer-link{
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 0.35em 1em;
+	background-color: #05CBE9;
+	color: #111D4A;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+@media (min-width: 650px) {
+	.card {
+		display: flex;
+		flex-direction: row
+	}
+	
+	.card-img {
+		
+		height: 350px;
+	}
+
+	.card-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+	.card-footer {
+		margin-top: auto;
+	}
+}
